@@ -16,7 +16,7 @@
         </h1>
       </div>
       <div class="r1-body">
-        <p>三更</p>
+        <p>MemoryStar</p>
         <div class="catch-me">
           <div class="">
             <el-tooltip class="item" content="Github" placement="top">
@@ -121,8 +121,8 @@ export default {
       artCommentList: "", //最新评论
       catchMeObj: {
         //个人信息
-        git: "https://gitee.com",
-        qq: "/static/img/qq.png",
+        git: "https://github.com/lxy2500798479",
+        qq: "tencent://AddContact/?fromId=45&fromSubId=1&subcmd=all&uin=2500798479&website=www.oicqzone.com",
         sina: "https://weibo.com",
         wechat: "/static/img/qq.jpg",
         csdn: "http://www.csdn.cn",

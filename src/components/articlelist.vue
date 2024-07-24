@@ -100,8 +100,9 @@ export default {
       this.showSearchShowList(true);
     },
     replaceThumbnailUrl: function (url) {
+
       if (url.startsWith('http://sg91jaw0w.hn-bkt.clouddn.com')) {
-        return url.replace('http://sg91jaw0w.hn-bkt.clouddn.com', 'https://lovewx.cc/images');
+        return url.replace('http://sg91jaw0w.hn-bkt.clouddn.com', `https://front.lovewx.cc/images`);
       }
       return url;
     }

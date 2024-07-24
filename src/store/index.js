@@ -14,7 +14,7 @@ export const state = {
   },//主题
   keywords:'',//关键词
   errorImg: 'this.onerror=null;this.src="' + require('../../static/img/tou.jpg') + '"',
-  baseURL:'https://lovewx.cc/front',
+  baseURL:'https://front.lovewx.cc/front',
   // baseURL:'http://127.0.0.1:8083/'
   //  baseURL:'http://1.92.101.29:8082/'
   // baseUrl:'http://127.0.0.1:7777/'

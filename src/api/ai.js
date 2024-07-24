@@ -11,7 +11,7 @@ export function submitQuestion(question) {
 
 // 使用EventSource获取实时响应
 export function getRealTimeResponse(questionId, onMessage, onError) {
-  const eventSource = new EventSource(`https://lovewx.cc/front/askAi?questionId=${questionId}`);
+  const eventSource = new EventSource(`https://front.lovewx.cc/front/askAi?questionId=${questionId}`);
 
   eventSource.onmessage = (event) => {
     onMessage(event.data);
